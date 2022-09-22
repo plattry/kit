@@ -1,0 +1,34 @@
+{
+  "name": "plattry/kit",
+  "description": "The plattry kit package",
+  "keywords": [
+    "plattry",
+    "framework",
+    "high performance",
+    "web server"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Plattry\\Kit\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Aaron Lee",
+      "email": "sixser@foxmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1",
+    "plattry/event": "^1.0",
+    "psr/container": "^2.0",
+    "psr/http-factory": "^1.0",
+    "psr/http-message": "^1.0",
+    "psr/http-server-handler": "^1.0",
+    "psr/http-server-middleware": "^1.0",
+    "psr/log": "^3.0"
+  }
+}
